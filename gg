@@ -1,0 +1,39 @@
+ 
+      // class  Clock extends React.Component{
+      //   constructor(props){
+      //     super(props);
+      //     this.state = {
+      //       heure : 0,
+      //       minute : 0,
+      //       seconde : 0
+      //     };
+      //   }
+
+      //   componentDidMount(){
+      //     setInterval(
+      //       ()=>{
+      //         this.setState({ seconde: this.state.seconde+1});
+      //         if(this.state.seconde == 60){
+      //           this.setState({minute:this.state.minute +1}) ;
+      //           this.setState({seconde:0}) ;
+      //         };
+      //         if(this.state.minute == 60 ) {
+      //           this.setState({heure:this.state.heure+1});
+      //           this.setState({minute:0}) ;
+      //         }
+      //       },1000
+      //     )
+      //   }
+
+      //   render(){
+      //     return (
+      //     <div>
+      //       <p>heure : {this.state.heure} Minutes : {this.state.minute} Seconde : {this.state.seconde}</p>
+      //       </div>
+      //     );
+      //   }
+      // }
+      // ReactDOM.render(
+      //   <Clock />,
+      //   document.getElementById('root')
+      //   );
