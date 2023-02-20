@@ -80,15 +80,14 @@
 
         render() {
           return (
-            <button onClick={ this.handleClick }>
+            <button onClick={this.handleClick}>
               {this.state.isToggleOn ? "ON" : "OFF"}
             </button>
           );
         }
       }
       //  ReactDOM.render(<Application />, document.getElementById("root"));
-     ReactDOM.render(<Toggles />, document.getElementById("root"));
-     
+      ReactDOM.render(<Toggles />, document.getElementById("root"));
     </script>
   </body>
 </html>
